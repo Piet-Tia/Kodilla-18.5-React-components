@@ -16,6 +16,12 @@ const contacts = [
 		firstName: 'Zbigniew',
 		lastName: 'Koziol',
 		email: 'zbigniew.koziol@example.com',
+	},
+	{
+		id: 4,
+		firstName: 'Piotr',
+		lastName: 'Nastaj',
+		email: 'piotr@nastaj.net',
 	}
 ];
 
