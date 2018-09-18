@@ -26,19 +26,22 @@ body {
       flex-wrap: wrap;
 }
 
+.contactItemSpace {
+  margin: 10px;
+}
+
+.contactItemSpace:hover > .contactItem {
+  box-shadow: #666 2px 2px 3px;
+  transform: translate(2px, 2px);
+  background: #aaa;
+}
+
 .contactItem {
   padding: 10px;
-  margin: 10px;
   background: #999;
   box-shadow: #666 4px 4px 3px;
   transition: 0.1s;
   border-radius: 2px;
-}
-
-.contactItem:hover {
-  box-shadow: #666 2px 2px 3px;
-  transform: translate(2px, 2px);
-  background: #aaa;
 }
 
 .contactForm {
